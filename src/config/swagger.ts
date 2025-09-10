@@ -11,7 +11,7 @@ const options: swaggerJSDoc.Options = {
       description: "Servicio REST para consultar información básica de un cliente",
     },
   },
-  apis: ["./src/interfaces/routes/*.ts"], // 👈 Rutas donde pondremos anotaciones Swagger
+  apis: ["./src/interfaces/routes/*.ts"], 
 };
 
 const swaggerSpec = swaggerJSDoc(options);
